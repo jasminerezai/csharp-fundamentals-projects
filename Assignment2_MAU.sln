@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2_MAU", "Assignment2_MAU\Assignment2_MAU.csproj", "{2B43B490-9D76-467B-B755-7EBB41E4BE8A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2A_CostCalculator", "Assignment2A_CostCalculator\Assignment2A_CostCalculator.csproj", "{0719953D-D258-4608-B82A-1ED780B93729}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2B_GuessGame", "Assignment2B_GuessGame\Assignment2B_GuessGame.csproj", "{11BFC6DA-DC02-484F-8516-1D78617C1670}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2C_TemperatureAndStrings", "Assignment2C_TemperatureAndStrings\Assignment2C_TemperatureAndStrings.csproj", "{6B872D20-3AA0-429A-AB49-B65339E1F5E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment2D_Scheduler", "Assignment2D_Scheduler\Assignment2D_Scheduler.csproj", "{AE04E392-81DA-47F4-B596-B34D8C1D659A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B43B490-9D76-467B-B755-7EBB41E4BE8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B43B490-9D76-467B-B755-7EBB41E4BE8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B43B490-9D76-467B-B755-7EBB41E4BE8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B43B490-9D76-467B-B755-7EBB41E4BE8A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0719953D-D258-4608-B82A-1ED780B93729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0719953D-D258-4608-B82A-1ED780B93729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0719953D-D258-4608-B82A-1ED780B93729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0719953D-D258-4608-B82A-1ED780B93729}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11BFC6DA-DC02-484F-8516-1D78617C1670}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11BFC6DA-DC02-484F-8516-1D78617C1670}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11BFC6DA-DC02-484F-8516-1D78617C1670}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11BFC6DA-DC02-484F-8516-1D78617C1670}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B872D20-3AA0-429A-AB49-B65339E1F5E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B872D20-3AA0-429A-AB49-B65339E1F5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B872D20-3AA0-429A-AB49-B65339E1F5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B872D20-3AA0-429A-AB49-B65339E1F5E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE04E392-81DA-47F4-B596-B34D8C1D659A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE04E392-81DA-47F4-B596-B34D8C1D659A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE04E392-81DA-47F4-B596-B34D8C1D659A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE04E392-81DA-47F4-B596-B34D8C1D659A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
