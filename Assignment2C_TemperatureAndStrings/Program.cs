@@ -1,3 +1,11 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-Console.WriteLine("Hello, World!");
+﻿namespace Assignment2C_TemperatureAndStrings
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            TemperatureConverter converter = new TemperatureConverter();
+            converter.Run();
+        }
+    }
+}
