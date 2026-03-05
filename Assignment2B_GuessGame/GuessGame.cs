@@ -1,15 +1,11 @@
 using System;
 
-/// <summary>
-/// A number guessing game where the player selects a difficulty level.
-/// </summary>
+// A number guessing game where the player selects a difficulty level.
 public class GuessGame
 {
     private Random random = new Random();
-
-    /// <summary>
-    /// Starts the game loop.
-    /// </summary>
+    
+    // Starts the game loop
     public void Run()
     {
         bool playAgain = true;
@@ -45,10 +41,8 @@ public class GuessGame
             playAgain = AskToContinue();
         }
     }
-
-    /// <summary>
-    /// Lets the player choose difficulty level.
-    /// </summary>
+    
+    // Lets the player choose difficulty level
     private int ChooseDifficulty()
     {
         Console.WriteLine("\nChoose difficulty:");
@@ -71,10 +65,8 @@ public class GuessGame
         else
             return 100;
     }
-
-    /// <summary>
-    /// Reads a valid guess from the player.
-    /// </summary>
+    
+    // Reads a valid guess from the player.
     private int ReadGuess()
     {
         int guess;
@@ -87,10 +79,8 @@ public class GuessGame
 
         return guess;
     }
-
-    /// <summary>
-    /// Asks if the player wants to play again.
-    /// </summary>
+    
+    // Asks if the player wants to play again.
     private bool AskToContinue()
     {
         Console.Write("\nPlay again? (y/n): ");
