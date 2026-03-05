@@ -1,7 +1,8 @@
 using System;
 
-
-// Contains exercises that work with strings and switch statements.
+/// <summary>
+/// Contains exercises that work with strings and switch statements.
+/// </summary>
 
 public class StringFunctions
 {
@@ -18,8 +19,9 @@ public class StringFunctions
         } while (again);
     }
 
-    
-    // Asks the user for text and prints its length and uppercase version.
+    /// <summary>
+    /// Asks the user for text and prints its length and uppercase version.
+    /// </summary>
     public void StringLength()
     {
         Console.Write("\nEnter some text: ");
@@ -31,8 +33,9 @@ public class StringFunctions
         Console.WriteLine($"Uppercase: {text.ToUpper()}");
     }
 
-  
-    // Predicts how the user's day will be based on a number 1–7.
+    /// <summary>
+    /// Predicts how the user's day will be based on a number 1–7.
+    /// </summary>
     public void PredictMyDay()
     {
         Console.Write("\nEnter a number (1-7) for the day of the week: ");
@@ -76,8 +79,9 @@ public class StringFunctions
                 break;
         }
     }
-    
-    // Asks the user if they want to run the program again.
+    /// <summary>
+    /// Asks the user if they want to run the program again.
+    /// </summary>
     public bool RunAgain()
     {
         Console.Write("\nRun again? (y/n): ");

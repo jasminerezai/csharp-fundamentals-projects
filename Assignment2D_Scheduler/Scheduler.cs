@@ -1,9 +1,12 @@
 using System;
-
-// Generates work schedules for weekends and night shifts.
+/// <summary>
+/// Generates work schedules for weekends and night shifts.
+/// </summary>
 public class Scheduler
 {
-    // Starts the scheduler menu.
+    /// <summary>
+    /// Starts the scheduler menu.
+    /// </summary>
     public void Run()
     {
         int choice;
@@ -32,8 +35,9 @@ public class Scheduler
 
         } while (choice != 0);
     }
-    
-    // Displays the menu.
+    /// <summary>
+    /// Displays the menu.
+    /// </summary>
     private void ShowMenu()
     {
         Console.WriteLine("\nScheduler Menu");
@@ -41,8 +45,9 @@ public class Scheduler
         Console.WriteLine("2 - Show night shift schedule");
         Console.WriteLine("0 - Exit");
     }
-    
-    // Reads menu choice.
+    /// <summary>
+    /// Reads menu choice.
+    /// </summary>
     private int ReadChoice()
     {
         int choice;
@@ -55,8 +60,9 @@ public class Scheduler
 
         return choice;
     }
-    
-    // Prints schedule using start week and interval.
+    /// <summary>
+    /// Prints schedule using start week and interval.
+    /// </summary>
     private void PrintSchedule(int startWeek, int endWeek, int interval)
     {
         for (int week = startWeek; week <= endWeek; week += interval)

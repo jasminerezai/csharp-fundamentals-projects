@@ -1,11 +1,13 @@
 using System;
 
-
-// Displays temperature conversion tables between Celsius and Fahrenheit.
+/// <summary>
+/// Displays temperature conversion tables between Celsius and Fahrenheit.
+/// </summary>
 public class TemperatureConverter
 {
-    
-    // Starts the temperature converter menu.
+    /// <summary>
+    /// Starts the temperature converter menu.
+    /// </summary>
     public void Run()
     {
         int choice;
@@ -33,8 +35,9 @@ public class TemperatureConverter
         } while (choice != 0);
     }
 
-
-    // Displays the menu options.
+    /// <summary>
+    /// Displays the menu options.
+    /// </summary>
     private void ShowMenu()
     {
         Console.WriteLine("\nTemperature Converter");
@@ -43,8 +46,9 @@ public class TemperatureConverter
         Console.WriteLine("2 - Celsius to Fahrenheit");
     }
 
- 
-    // Reads a valid menu choice from the user.
+    /// <summary>
+    /// Reads a valid menu choice from the user.
+    /// </summary>
     private int ReadMenuChoice()
     {
         int choice;
@@ -58,8 +62,9 @@ public class TemperatureConverter
         return choice;
     }
 
-    
-    // Displays Fahrenheit to Celsius table.
+    /// <summary>
+    /// Displays Fahrenheit to Celsius table.
+    /// </summary>
     private void ShowFahrenheitToCelsius()
     {
         Console.WriteLine("\nFahrenheit   Celsius");
@@ -71,8 +76,9 @@ public class TemperatureConverter
         }
     }
 
-    
-    // Displays Celsius to Fahrenheit table.
+    /// <summary>
+    /// Displays Celsius to Fahrenheit table.
+    /// </summary>
     private void ShowCelsiusToFahrenheit()
     {
         Console.WriteLine("\nCelsius      Fahrenheit");
