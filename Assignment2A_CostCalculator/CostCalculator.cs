@@ -1,14 +1,10 @@
 using System;
 
-/// <summary>
-/// Calculates total purchase cost with discount based on quantity.
-/// Includes input validation and repeat functionality.
-/// </summary>
+
+// Calculates total purchase cost with discount based on quantity.
 public class CostCalculator
 {
-    /// <summary>
-    /// Starts the cost calculation process.
-    /// </summary>
+    // Starts the cost calculation process.
     public void Run()
     {
         bool continueProgram = true;
@@ -31,9 +27,7 @@ public class CostCalculator
         }
     }
 
-    /// <summary>
-    /// Reads a positive double value from the user.
-    /// </summary>
+    // Reads a positive double value from the user.
     private double ReadPositiveDouble(string message)
     {
         double value;
@@ -44,10 +38,8 @@ public class CostCalculator
 
         return value;
     }
-
-    /// <summary>
-    /// Reads a positive integer value from the user.
-    /// </summary>
+    
+    // Reads a positive integer value from the user.
     private int ReadPositiveInt(string message)
     {
         int value;
@@ -58,10 +50,8 @@ public class CostCalculator
 
         return value;
     }
-
-    /// <summary>
-    /// Determines discount percentage based on quantity.
-    /// </summary>
+    
+    // Determines discount percentage based on quantity.
     private double GetDiscount(int quantity)
     {
         if (quantity >= 100)
@@ -76,9 +66,7 @@ public class CostCalculator
             return 0.0;
     }
 
-    /// <summary>
-    /// Asks the user if they want to continue.
-    /// </summary>
+    // Asks the user if they want to continue.
     private bool AskToContinue()
     {
         Console.Write("\nContinue? (y/n): ");
