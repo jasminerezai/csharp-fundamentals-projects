@@ -2,7 +2,7 @@
 
 This repository contains a collection of small C# console applications developed to demonstrate core programming concepts.
 
-## 📚 Overview
+##  Overview
 
 The projects in this repository focus on fundamental concepts in C# such as:
 
@@ -12,7 +12,7 @@ The projects in this repository focus on fundamental concepts in C# such as:
 * Methods and class structure
 * Basic algorithms
 
-## 🧩 Projects Included
+##  Projects Included
 
 ### 1. Cost Calculator
 
@@ -41,14 +41,14 @@ Generates work schedules based on intervals:
 * Weekend shifts (every 2 weeks starting from week 2)
 * Night shifts (every 4 weeks starting from week 1)
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * C#
 * .NET (Console Applications)
 * JetBrains Rider
 * Git & GitHub
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
 
@@ -64,7 +64,7 @@ Generates work schedules based on intervals:
 
 3. Select a project and run it.
 
-## 🎯 Purpose
+##  Purpose
 
 This repository was created as part of learning C# fundamentals and practicing problem-solving using basic programming constructs.
 
